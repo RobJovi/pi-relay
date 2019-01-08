@@ -20,5 +20,4 @@ def led_off(pin):
 led_on(channel)
 time.sleep(5)
 led_off(channel)
-    
-
+GPIO.cleanup()
