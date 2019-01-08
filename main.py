@@ -9,6 +9,7 @@ GPIO.setup(channel, GPIO.OUT)
 
 
 def led_on(pin):
+    print('hello')
     GPIO.output(pin, GPIO.HIGH)    # turn led on
 
 def led_ff(pin):
