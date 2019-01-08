@@ -13,7 +13,7 @@ def led_on(pin):
     GPIO.output(pin, GPIO.HIGH)    # turn led on
 
 def led_off(pin):
-        print('off')
+    print('off')
     GPIO.output(pin, GPIO.LOW)    # turn led off
 
 
