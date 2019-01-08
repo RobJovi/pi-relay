@@ -17,5 +17,6 @@ def led_ff(pin):
 
 
 led_on(channel)
+led_off(channel)
     
 
